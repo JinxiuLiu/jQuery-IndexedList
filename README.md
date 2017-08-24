@@ -1,2 +1,5 @@
 # jquery-indexedlist
-索引列表jquery plugin
+移动端索引列表jquery plugin
+
+## 说明
+

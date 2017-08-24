@@ -1,16 +1,17 @@
 ﻿/**
  * Created by Liujx on 2017-07-18 15:19:43
  */
-;(function(global, $, doc) {
+;
+(function(global, $, doc) {
     'use strict';
 
     var IndexedList = function(options) {
         this.options = options || {};
         this.pointElement = null;
         this.defaults = {
-            $bar: $('.mui-indexed-list-bar'),   // 存储索引的盒子
-            $inner: $('.mui-indexed-list-inner'),   // 存储列表盒子
-            $alert: $('.mui-indexed-list-alert')    // 提示索引的盒子
+            $bar: $('.mui-indexed-list-bar'), // 存储索引的盒子
+            $inner: $('.mui-indexed-list-inner'), // 存储列表盒子
+            $alert: $('.mui-indexed-list-alert') // 提示索引的盒子
         }
         this.opts = $.extend({}, this.defaults, options);
         this.bindEvent();
@@ -74,7 +75,7 @@
 
     global.IndexedList = IndexedList;
 
-    $.fn.IndexedList = function(options){
+    $.fn.IndexedList = function(options) {
         new IndexedList(options);
         return this;
     }
