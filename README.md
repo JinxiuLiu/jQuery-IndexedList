@@ -2,7 +2,7 @@
 移动端索引列表，根据mui-indexedlist更改而来，现在基于jquery，不用引入mui的js、css文件。
 
 ## Demo
-see the https://jinxiuliu.github.io/jQuery-IndexedList/example/[https://jinxiuliu.github.io/jQuery-IndexedList/example/]
+see the https://jinxiuliu.github.io/jQuery-IndexedList/example/
 
 ## Install
 ```
